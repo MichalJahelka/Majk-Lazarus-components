@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="Majk"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Michal Jahelka (homen.vsb.cz/~jah01)"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Components converted form delphi or rewrited to be similar
+HexControls - HEX editor components
+TAnalogMeter - Neddle meter with real numbers
+Switches - ImageSwitch, LeverSwitch and Push-Pull animated switches
+Gauges - Normal and 3D gauge, LED and LED Label"/>
+    <License Value="Open source"/>
+    <Files Count="9">
+      <Item1>
+        <Filename Value="HexControls.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="HexControls"/>
+      </Item1>
+      <Item2>
+        <Filename Value="HexControls.lrs"/>
+        <Type Value="LRS"/>
+      </Item2>
+      <Item3>
+        <Filename Value="Meters.lrs"/>
+        <Type Value="LRS"/>
+      </Item3>
+      <Item4>
+        <Filename Value="Meters.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Meters"/>
+      </Item4>
+      <Item5>
+        <Filename Value="Switches.lrs"/>
+        <Type Value="LRS"/>
+      </Item5>
+      <Item6>
+        <Filename Value="Switches.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Switches"/>
+      </Item6>
+      <Item7>
+        <Filename Value="gauges.lrs"/>
+        <Type Value="LRS"/>
+      </Item7>
+      <Item8>
+        <Filename Value="gauges.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Gauges"/>
+      </Item8>
+      <Item9>
+        <Filename Value="Edits.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Edits"/>
+      </Item9>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
